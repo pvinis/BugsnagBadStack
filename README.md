@@ -1,5 +1,6 @@
+Issue: https://github.com/bugsnag/bugsnag-react-native/issues/300
 
-# steps to setup this repo:
+# steps I took to setup this repo:
 - `react-native init BugsnagBadStack`
 - `cd BugsnagBadStack`
 - commit
@@ -30,6 +31,7 @@
 - `./scripts/upload-dsym`
 - tap `CRASH JS` button
 - see everything is nice
+![What is this](crash-js.png)
 - tap `CRASH NATIVE` button
 - see that the stacktrace looks weird, no formatting
 
