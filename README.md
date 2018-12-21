@@ -31,7 +31,7 @@ Issue: https://github.com/bugsnag/bugsnag-react-native/issues/300
 - `./scripts/upload-dsym`
 - tap `CRASH JS` button
 - see everything is nice
-![What is this](crash-js.png)
+![crash-js](crash-js.png)
 - tap `CRASH NATIVE` button
 - see that the stacktrace looks weird, no formatting
-
+![crash-native](crash-native.png)
