@@ -1,0 +1,15 @@
+react-native bundle \
+    --platform ios \
+    --dev false \
+    --entry-file index.js \
+    --bundle-output ios-release.bundle \
+    --sourcemap-output ios-release.bundle.map
+
+yarn bugsnag-sourcemaps upload \
+    --api-key 68fb128552202a3fa5fbc22cb52a466d \
+    --app-version 1.0 \
+    --minified-file ios-release.bundle \
+    --source-map ios-release.bundle.map \
+    --minified-url main.jsbundle \
+    --upload-sources \
+    --overwrite
