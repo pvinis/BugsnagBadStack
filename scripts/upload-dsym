@@ -1,0 +1,3 @@
+./scripts/bugsnag-dsym-upload \
+    --api-key 68fb128552202a3fa5fbc22cb52a466d \
+    ~/Library/Developer/Xcode/DerivedData/BugsnagBadStack-bdsgflnrcrykxbaytwuhrnvdwwja/Build/Products/Release-iphonesimulator
