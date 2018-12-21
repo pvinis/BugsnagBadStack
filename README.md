@@ -1,5 +1,5 @@
 
-# steps to setup this repo:
+# steps I took to setup this repo:
 - `react-native init BugsnagBadStack`
 - `cd BugsnagBadStack`
 - commit
