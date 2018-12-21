@@ -1,3 +1,4 @@
+Issue: https://github.com/bugsnag/bugsnag-react-native/issues/300
 
 # steps I took to setup this repo:
 - `react-native init BugsnagBadStack`
