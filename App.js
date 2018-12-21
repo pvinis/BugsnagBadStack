@@ -7,12 +7,13 @@
  */
 
 import React, {Component} from 'react';
-import {Button, Platform, StyleSheet, Text, View} from 'react-native';
+import {NativeModules, Button, Platform, StyleSheet, Text, View} from 'react-native';
 
 import { Client } from 'bugsnag-react-native'
 
-
 const bugsnag = new Client("68fb128552202a3fa5fbc22cb52a466d")
+
+const CoolCrash = NativeModules.CoolCrash
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -27,12 +28,17 @@ export default class App extends Component {
     a.b.c = true // js crash report should show this line
   }
 
+  coolCrash = () => {
+    CoolCrash.letsDoIt()
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Button title="CRASH JS" onPress={this.niceCrash} />
+        <Button title="CRASH NATIVE" onPress={this.coolCrash} />
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
     );

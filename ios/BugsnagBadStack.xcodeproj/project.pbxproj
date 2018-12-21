@@ -38,6 +38,7 @@
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AF759E8D21CCFFEA000D8931 /* CoolCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AF759E8C21CCFFEA000D8931 /* CoolCrash.m */; };
 		BD39BB093FFE428E916C0DA9 /* libBugsnagReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B06778498964E26A22DEED3 /* libBugsnagReactNative.a */; };
 		D011F3440E1D44099FBF9CB7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 664E7F6E0DA84ADFB906C484 /* libz.tbd */; };
 /* End PBXBuildFile section */
@@ -355,6 +356,8 @@
 		8B06778498964E26A22DEED3 /* libBugsnagReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBugsnagReactNative.a; sourceTree = "<group>"; };
 		8DEA568DEC614C0786EB0814 /* BugsnagReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BugsnagReactNative.xcodeproj; path = "../node_modules/bugsnag-react-native/cocoa/BugsnagReactNative.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		AF759E8B21CCFFEA000D8931 /* CoolCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolCrash.h; sourceTree = "<group>"; };
+		AF759E8C21CCFFEA000D8931 /* CoolCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolCrash.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -496,6 +499,8 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				AF759E8B21CCFFEA000D8931 /* CoolCrash.h */,
+				AF759E8C21CCFFEA000D8931 /* CoolCrash.m */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -1159,6 +1164,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				AF759E8D21CCFFEA000D8931 /* CoolCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
